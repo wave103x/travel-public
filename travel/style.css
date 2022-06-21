@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Magra:wght@700&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Aleo, sans-serif;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.white-color {
+    color: white;
+}
+
+/*      first view      */
+
+.header__logo {
+    font-family: Marga, 'Segoe UI', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    position: relative;
+}
+
+.header__flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo::before {
+    content: url(assets/img/logo.svg);
+    position: relative; 
+    margin-right: 6px;
+}
+
+header {
+    height: 765px;
+    background: url(assets/img/background-top.jfif) no-repeat center / cover;
+}
+
+.header__top {
+    height: 90px;
+    background-color: rgba(242, 120, 92,.7);
+    padding-top: 25px;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    gap: 42px;
+    font-family: 'Red Hat Text';
+    font-size: 1rem;
+}
+
+nav>div:hover {
+    cursor: pointer;
+}
+
+.button__gray {
+    font-family: 'Red Hat Text';
+    padding: 10px 30px;
+    border-radius: 10px;
+    background-color: #0D606F;
+    border: none;
+    cursor: pointer;
+}
+
+.button__gray--login {
+    font-size: 1rem;
+    box-shadow: 0px 2px 3px 0px rgba(13, 96, 111, 0.16);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.button__gray--top {
+    font-size: 1.5rem;
+    box-shadow: 0px 2px 3px 0px rgba(13, 96, 111, 0.16);
+    box-shadow: 0px 0px 3px 0px rgba(13, 96, 111, 0.08);
+    padding: 14px 33px;
+}
+
+
+h1 {
+    font-family: Aleo, sans-serif;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 96px;
+}
+
+h2 {
+    font-family: Aleo, sans-serif;
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    font-style: italic;
+    margin-bottom: 46px;
+}
+
+.cta-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 18px 18px 40px;
+    width: 892px;
+    border-radius: 1rem;
+    background: rgba(255, 255, 255, 0.7);
+    box-sizing: border-box;
+}
+
+.cta-top>p {
+    font-family: Aleo, sans-serif;
+    font-size: 1.5rem;
+    color: #F2785C;
+    padding: 0;
+    margin: 0;
+}
+
+
+/*      steps       */
+
+h3 {
+    font-family: 'Red Hat Text', sans-serif;
+    font-size: 2.5rem;
+    color: #F2785C;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.steps__three {
+    display: flex;
+    width: 1177px;
+    justify-content: space-between;
+    font-size: 1.25rem;
+    color: #0D606F;
+}
+
+.steps__one-step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/*      destinations       */
+
+.destinations {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.slider {
+    display: flex;
+    gap: 60px;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.bullets {
+    display: flex;
+    gap: 10px;
+}
