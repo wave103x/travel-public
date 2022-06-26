@@ -1,0 +1,137 @@
+/*          header              */
+
+.header__top, .sub-heading, #plan {
+ display: none;   
+}
+
+.preview {
+    height: 251px;
+    margin-bottom: 1rem;
+}
+
+.cta-top {
+    width: auto;
+    margin: 67px 1rem 0;
+}
+
+.cta-top p {
+    font-size: .875rem;
+}
+
+.button__gray {
+    font-size: 11px;
+    padding: 7px 9px;
+}
+
+.button__icon-arrow {
+    margin: 10px 0 0;
+    line-height: 14px;
+}
+
+.img-icon-arrow {
+    width: 10px;
+}
+
+.wrapper {
+    overflow: auto; /*отмена схлопывания*/
+}
+
+.mobile-logos {
+    display: flex;
+    justify-content: space-between;
+    margin: 43px 1rem 0;
+}
+
+h2 {
+    font-size: 14px;
+    margin: 20px 0;
+}
+
+
+/*          steps           */
+
+.steps {
+    margin: 0;
+}
+
+.steps__three {
+    margin: 0 1rem;
+    flex-wrap: nowrap;
+    gap: 2rem;
+}
+
+.steps__one-step {
+    font-size: 10px;
+    gap: 20px;
+}
+
+.steps__one-step:first-child {
+    align-items: flex-start;
+    
+}
+
+.steps__one-step:last-child {
+    align-items: flex-end;
+    text-align: right;
+}
+
+.steps__one-step img {
+    width: 70px;
+}
+
+.steps__text {
+    white-space: normal;
+}
+
+
+
+/*          slider          */
+
+.destinations--flex {
+    margin: 0 1rem;
+}
+
+.slider__photo-2, .slider__photo-3, .slider__photo-1 {
+    position: relative;
+    height: 210px;
+}
+
+
+/*          stories         */
+
+.stories__content {
+    padding: 10px;
+}
+
+.stories__node {
+    gap: 10px;
+    margin-bottom: 15px;
+    flex-direction: row;
+}
+
+.stories__img {
+    width: 155px;
+    height: 130px;
+}
+
+h3 {
+    font-size: 11px;
+    margin-bottom: 10px;
+}
+
+.stories__text {
+    font-size: 9px;
+}
+
+
+/*      footer          */
+
+footer {
+    grid-template-columns: 1fr 1fr;
+    width: auto;
+    margin: 0 1rem;
+}
+
+.footer__copyright {
+    display: none;
+}
