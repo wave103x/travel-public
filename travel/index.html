@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet"  href="style.css">
+    <link rel="stylesheet" href="style.css">
     <link rel='stylesheet' media='screen and (max-width: 390px)' href='responsive.css' />
     <link rel="icon" type="image/x-icon" href="./assets/icon/favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,8 +11,19 @@
 </head>
 
 <body>
+    <div id="ad-menu" class="adapt-menu">
+        <img class="close-icon" src="./assets/icon/close.svg" alt="close icon" width="30" id="close-icon">
+        <div class="adapt-menu__link" id="#"><a>How it works</a></div>
+        <div class="adapt-menu__link" id="#"><a>Plan Your Trip</a></div>
+        <div class="adapt-menu__link" id="#"><a>Destinations</a></div>
+        <div class="adapt-menu__link" id="#"><a>Travel Stories</a></div>
+        <div class="adapt-menu__link" id="#"><a>Account</a></div>
+        <div class="adapt-menu__link" id="#"><a>Social Media</a></div>
+    </div>
     <div class="preview">
+
         <header class="header__top white-color">
+
             <div class="wrapper">
                 <div class="header__flex">
                     <div class="header__logo">Travel Portal</div>
@@ -32,9 +43,10 @@
             <h1 class="white-color" id="plan">Explore the beauty of <br>the World</h1>
             <div class="sub-heading white-color">Receive personalized recommendations for countries, hotels, activities
                 and more</div>
+
             <div class="mobile-logos">
                 <img src="./assets/icon/header-logo.svg" alt="site-logo">
-                <img src="./assets/icon/eva_menu-outline.svg" alt="hamburger">
+                <img src="./assets/icon/eva_menu-outline.svg" alt="hamburger" id="hamburger">
             </div>
             <div class="cta-top">
                 <p>What would you like to do?</p>
@@ -66,15 +78,15 @@
         <h2 id="destinations">POPULAR DESTINATIONS</h2>
         <div class="destinations--flex">
             <div class="slider">
-                <div class="slider__photo-1"><img src="assets/img/left.jpg"  alt="destination1"></div>
-                <div class="slider__photo-2"><img src="assets/img/middle.jpg"  alt="destination2"></div>
+                <div class="slider__photo-1"><img src="assets/img/left.jpg" alt="destination1"></div>
+                <div class="slider__photo-2"><img src="assets/img/middle.jpg" alt="destination2"></div>
                 <div class="slider__photo-3"><img src="assets/img/right.jpg" alt="destination3"></div>
             </div>
             <div class="bullets">
                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <circle cx="10" cy="10" r="10" fill="#F2785C" fill-opacity="0.5" />
                 </svg>
-                <svg  width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <circle cx="10" cy="10" r="10" fill="#F2785C" fill-opacity="1" />
                 </svg>
                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -165,12 +177,15 @@
                         <a class="stories__read-more" href="#"><b>Read more</b></a>
                     </div>
                 </div>
-                <button class="button__gray button__icon-arrow"><img class="img-icon-arrow" src="assets/icon/bi_arrow-right.svg" alt="icon-arrow">See More</button>
+                <button class="button__gray button__icon-arrow"><img class="img-icon-arrow"
+                        src="assets/icon/bi_arrow-right.svg" alt="icon-arrow">See More</button>
             </div>
             <footer>
                 <ul class="footer__social-icons grid-social-left">
-                    <li><a href="https://github.com/wave103x"><img src="./assets/icon/github.svg" width="34" alt="icon-git"></a></li>
-                    <li><a href="https://rs.school/js-stage0/"><img src="./assets/icon/rs_school_js.svg" height="34" alt="icon-rsschool"></a></li>
+                    <li><a href="https://github.com/wave103x"><img src="./assets/icon/github.svg" width="34"
+                                alt="icon-git"></a></li>
+                    <li><a href="https://rs.school/js-stage0/"><img src="./assets/icon/rs_school_js.svg" height="34"
+                                alt="icon-rsschool"></a></li>
                 </ul>
                 <p class="footer__copyright white-color">All Rights Reserved © Travel Portal</p>
                 <ul class="footer__social-icons grid-social-right">
@@ -181,7 +196,7 @@
             </footer>
         </div>
     </section>
-    
+    <script src="index.js"></script>
 </body>
 
 </html>
