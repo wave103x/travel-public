@@ -13,13 +13,15 @@
 <body>
     <div id="ad-menu" class="adapt-menu">
         <img class="close-icon" src="./assets/icon/close.svg" alt="close icon" width="30" id="close-icon">
-        <div class="adapt-menu__link" id="#"><a>How it works</a></div>
-        <div class="adapt-menu__link" id="#"><a>Plan Your Trip</a></div>
-        <div class="adapt-menu__link" id="#"><a>Destinations</a></div>
-        <div class="adapt-menu__link" id="#"><a>Travel Stories</a></div>
-        <div class="adapt-menu__link" id="#"><a>Account</a></div>
-        <div class="adapt-menu__link" id="#"><a>Social Media</a></div>
-    </div>
+        <div class="ad-links">
+            <div class="adapt-menu__link" ><a href="#steps">How it works</a></div>
+            <div class="adapt-menu__link" ><a href="#plan">Plan Your Trip</a></div>
+            <div class="adapt-menu__link" ><a href="#destinations">Destinations</a></div>
+            <div class="adapt-menu__link" ><a href="#stories">Travel Stories</a></div>
+            <div class="adapt-menu__link" ><a href="#">Account</a></div>
+            <div class="adapt-menu__link" ><a href="#social">Social Media</a></div>
+        
+        </div></div>
     <div class="preview">
 
         <header class="header__top white-color">
@@ -40,7 +42,7 @@
             </div>
         </header>
         <section class="wrapper">
-            <h1 class="white-color" id="plan">Explore the beauty of <br>the World</h1>
+            <h1 class="white-color" id="hide">Explore the beauty of <br>the World</h1>
             <div class="sub-heading white-color">Receive personalized recommendations for countries, hotels, activities
                 and more</div>
 
@@ -48,7 +50,7 @@
                 <img src="./assets/icon/header-logo.svg" alt="site-logo">
                 <img src="./assets/icon/eva_menu-outline.svg" alt="hamburger" id="hamburger">
             </div>
-            <div class="cta-top">
+            <div class="cta-top" id="plan">
                 <p>What would you like to do?</p>
                 <button class="button__gray button__gray--top white-color" type="submit">Start Planning</button>
             </div>
@@ -65,7 +67,7 @@
                 </div>
                 <div class="steps__one-step">
                     <img src="./assets/icon/Vector2.svg" alt="icon2">
-                    <p class="steps__text">Share us preferable dates</p>
+                    <p class="steps__text">Share&nbspus&nbsppreferable&nbspdates</p>
                 </div>
                 <div class="steps__one-step">
                     <img src="./assets/icon/Vector3.svg" alt="icon3">
@@ -83,13 +85,13 @@
                 <div class="slider__photo-3"><img src="assets/img/right.jpg" alt="destination3"></div>
             </div>
             <div class="bullets">
-                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg class="bullet" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <circle cx="10" cy="10" r="10" fill="#F2785C" fill-opacity="0.5" />
                 </svg>
-                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg class="bullet" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <circle cx="10" cy="10" r="10" fill="#F2785C" fill-opacity="1" />
                 </svg>
-                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg class="bullet" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <circle cx="10" cy="10" r="10" fill="#F2785C" fill-opacity="0.5" />
                 </svg>
             </div>
@@ -103,7 +105,7 @@
             <div class="stories__content">
                 <div class="stories__node">
                     <img class="stories__img" src="./assets/img/Rectangle15.jpg" alt="story1">
-                    <div class="stories__text">
+                    <div class="stories__full-text">
                         <h3>10 Photos of Attractive Thailand</h3>
                         <p class="stories__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                             tempor
@@ -122,7 +124,7 @@
                 </div>
                 <div class="stories__node">
                     <img class="stories__img" src="./assets/img/Rectangle16.jpg" alt="story2">
-                    <div class="stories__text">
+                    <div class="stories__full-text">
                         <h3>Canyonlands National Park, Utah</h3>
                         <p class="stories__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                             tempor
@@ -141,7 +143,7 @@
                 </div>
                 <div class="stories__node">
                     <img class="stories__img" src="./assets/img/Rectangle17.jpg" alt="story3">
-                    <div class="stories__text">
+                    <div class="stories__full-text">
                         <h3>I left my heart in the Mountains!</h3>
                         <p class="stories__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                             tempor
@@ -160,7 +162,7 @@
                 </div>
                 <div class="stories__node">
                     <img class="stories__img" src="./assets/img/Rectangle18.jpg" alt="story4">
-                    <div class="stories__text">
+                    <div class="stories__full-text">
                         <h3>The Longest journey in my life!</h3>
                         <p class="stories__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                             tempor
@@ -180,7 +182,7 @@
                 <button class="button__gray button__icon-arrow"><img class="img-icon-arrow"
                         src="assets/icon/bi_arrow-right.svg" alt="icon-arrow">See More</button>
             </div>
-            <footer>
+            <footer id="social">
                 <ul class="footer__social-icons grid-social-left">
                     <li><a href="https://github.com/wave103x"><img src="./assets/icon/github.svg" width="34"
                                 alt="icon-git"></a></li>
