@@ -1,3 +1,4 @@
+
 console.log('1. 48\n2. 15\n3. 22');
 const hamburger = document.querySelector('#hamburger');
 const menu = document.querySelector('.adapt-menu');
@@ -31,4 +32,7 @@ steps.addEventListener("click", function (ev) {
     ev.stopPropagation();
 }, false);
 
+
+
+console.log(75);
 

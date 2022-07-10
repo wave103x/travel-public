@@ -358,6 +358,11 @@ h3 {
     color: #0D606F;
     margin: 0;
     padding: 0;
+    transition: 0.2s;
+}
+
+.stories__read-more:hover {
+    color: #0e4f5a;
 }
 
 /*      footer       */
