@@ -8,6 +8,7 @@
 .preview {
     height: 251px;
     margin-bottom: 1rem;
+    padding-bottom: 0;
 }
 
 .cta-top {

@@ -36,15 +36,15 @@ body {
     left: 0;
     position: fixed;
     background: rgba(0, 0, 0, 0.5);
-    z-index: 2;
-    visibility: visible;
+    z-index: 12;
+    visibility: hidden;
     transition:  0.2s;
-    opacity: 1;
+    opacity: 0;
 }
 
 .pop-up__content {
-    width: 660px;
-    background: linear-gradient(#fff, #0D606F);
+    max-width: 660px;
+    background: linear-gradient(#fff, #8eb5bc);
     margin: 0 auto;
     transform: translateY(-70%);
     transition: 0.3s;
@@ -63,12 +63,12 @@ body {
 }
 
 .pop-up__active {
-    transform: translateY(15%);
+    transform: translateY(120px);
 }
 
 .hidden {
-    visibility: hidden;
-    opacity: 0;
+    visibility: visible;
+    opacity: 1;
 }
 
 h4 {
@@ -81,11 +81,98 @@ h4 {
 
 .btnPop {
     font-size: 1.25rem;
-    padding: .5rem;
+    padding: 0.75rem;
     border-radius: .5rem;
     border: none;
     box-shadow: 0px 2px 3px 0px rgba(13, 96, 111, 0.16);
     cursor: pointer;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Red Hat Text', arial;
+}
+
+.btnPop img {
+    margin-right: 1rem;
+}
+
+.btnFace {
+    background-color: #1877F2;
+    color: white;
+}
+
+.btnGoogle {
+    background-color: white;
+}
+
+.btnSign {
+    background-color: #0D606F;
+    color: white;
+    margin-top: .5rem;
+}
+
+.pop-up hr {
+    border: none;
+    border-top: 1px solid #0D606F;
+    box-shadow: none;
+}
+
+.hr {
+    position: relative;
+    text-align: center;
+    font-size: 1.25rem;
+    color: #70a2aa;
+}
+
+.hr::before {
+    content:'';
+    position: absolute;
+    width: 45%;
+    height: 1px;
+    background-color: #0d606f;
+    left: 0;
+    top: 12px;
+}
+
+.hr::after {
+    content:'';
+    position: absolute;
+    width: 45%;
+    height: 1px;
+    background-color: #0d606f;
+    right: 0;
+    top: 12px;
+}
+
+.inputPop {
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 5px;
+    box-shadow: none;
+    box-shadow: inset 0px 2px 3px 0px rgba(13, 96, 111, 0.16);
+}
+
+.inputPop:focus {
+    outline: 2px solid #1877F2;
+}
+
+.linkRegister,
+.linkForgot,
+.linkLogin {
+    text-decoration: none;
+    text-align: center;
+    color: #0D606F;
+}
+
+.textToRegister {
+    text-align: center;
+    color:#0d606f7a;
+    margin: 0;
+    display: inline;
+}
+
+.hide-popup-fields {
+    display: none;
 }
 
 /*      preview      */
@@ -112,7 +199,8 @@ h4 {
 }
 
 .preview {
-    height: 765px;
+    min-height: 37vw;
+    padding-bottom: 3rem;
     background: url(assets/img/background-top2.jpg) no-repeat center / cover;
     margin-bottom: 5rem;
 }
@@ -134,6 +222,11 @@ h4 {
     padding: 0;
     margin: 0;
     flex-wrap: wrap;
+}
+
+.header__self-link {
+    text-decoration: none;
+    color: white;
 }
 
 
@@ -506,8 +599,9 @@ footer {
     }
 
     .preview {
-        height: auto;
-        padding-bottom: 2rem;
+        /* min-height: 62vw;
+        height: auto; */
+        /* padding-bottom: 2rem; */
     }
     html {
         font-size: 12px;

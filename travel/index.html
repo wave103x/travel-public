@@ -11,30 +11,34 @@
 </head>
 
 <body>
-    <div class="pop-up hidden">
+    <div class="pop-up ">
         <div class="pop-up__content">
-            <h4>Log in to your account</h4>
-            <button class="btnPop btnFace">Sign In with Facebook</button>
-            <button class="btnPop btnGoogle">Sign In with Google</button>
-            <div><hr></div>
+            <h4 class="header-login">Log in to your account</h4>
+            <button class="btnPop btnFace"><img src="./assets/icon/FacebookLogo.svg">Sign In with Facebook</button>
+            <button class="btnPop btnGoogle"><img src="./assets/icon/GoogleLogo.svg">Sign In with Google</button>
+            <div class="hr">
+                or
+            </div>
             <form class="form__sign-in">
-                <label>E-mail<input type="email" name="e-mail"></label>
-                <label>Password<input type="password" name="password"></label>
-                <input class="btnPop btnSign" type="submit" value="Sign In">                
+                <label>E-mail<br><input class="btnPop inputPop" type="email" name="e-mail"></label>
+                <label>Password<br><input class="btnPop inputPop" type="password" name="password"></label>
+                <input class="btnPop btnSign" type="submit" value="Sign In">
             </form>
-            <a href="#">Forgot Your Password?</a>
-            <div><hr></div>
-            <p>Don’t have an account? <a href="#">Register</a></p>
+            <a href="#" class="linkForgot">Forgot Your Password?</a>
+            <div>
+                <hr>
+            </div>
+            <div style="text-align: center;"><p class="textToRegister">Don’t have an account? </p><a class="linkRegister" href="#">Register</a></div>
         </div>
     </div>
-    <div id="ad-menu" class="adapt-menu">
+    <div id="menu" class="adapt-menu">
         <img class="close-icon" src="./assets/icon/close.svg" alt="close icon" width="30" id="close-icon">
         <div class="ad-links">
             <div class="adapt-menu__link"><a href="#steps">How it works</a></div>
             <div class="adapt-menu__link"><a href="#plan">Plan Your Trip</a></div>
             <div class="adapt-menu__link"><a href="#destinations">Destinations</a></div>
             <div class="adapt-menu__link"><a href="#stories">Travel Stories</a></div>
-            <div class="adapt-menu__link"><a href="#">Account</a></div>
+            <div class="adapt-menu__link"><a href="#" onclick="accountLink();return false;" >Account</a></div>
             <div class="adapt-menu__link"><a href="#social">Social Media</a></div>
 
         </div>
@@ -43,7 +47,7 @@
         <header class="header__top white-color">
             <div class="wrapper">
                 <div class="header__flex">
-                    <div class="header__logo">Travel Portal</div>
+                    <a href="#" class="header__self-link"><div class="header__logo">Travel Portal</div></a>
                     <nav>
                         <ul class="white-color header__nav">
                             <li><a href="#steps">How It Works</a></li>
