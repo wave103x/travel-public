@@ -145,6 +145,7 @@ btnLogin.addEventListener('click', () => {
     popupContent.classList.toggle('pop-up__active');
 });
 
+
 popup.addEventListener('click', e => {
     if (!popupContent.contains(e.target) && !linkRegister.contains(e.target)) {
         popup.classList.toggle('hidden');
@@ -186,3 +187,4 @@ const pass = document.querySelector('.form__sign-in input[name="password"]');
 document.querySelector('.btnSign').addEventListener('click', () => {
     alert(`Your email: ${email.value}\nYour password: ${pass.value}`);
 });
+
