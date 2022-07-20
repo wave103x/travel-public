@@ -199,7 +199,8 @@ h4 {
 }
 
 .preview {
-    height: 765px;
+    min-height: 37vw;
+    padding-bottom: 3rem;
     background: url(assets/img/background-top2.jpg) no-repeat center / cover;
     margin-bottom: 5rem;
 }
@@ -603,8 +604,9 @@ footer {
     }
 
     .preview {
-        height: auto;
-        padding-bottom: 2rem;
+        /* min-height: 62vw;
+        height: auto; */
+        /* padding-bottom: 2rem; */
     }
     html {
         font-size: 12px;
