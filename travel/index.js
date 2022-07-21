@@ -1,4 +1,3 @@
-const menu = document.querySelector('.adapt-menu');
 const close = document.querySelector('#close-icon');
 const links = document.querySelector('.ad-links');
 

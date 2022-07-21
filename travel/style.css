@@ -54,6 +54,8 @@ body {
     gap: 1.25rem;
     box-sizing: border-box;
     border-radius: 1rem;
+    /* overflow:auto;
+    height: 600px; */
 }
 
 .form__sign-in {
