@@ -3,10 +3,10 @@
 .pop-up__active {
     transform: translateY(20px);
 }
-/* .pop-up__content {
-    max-height: 660px;
+.pop-up__content {
+    max-height: 640px;
     overflow: auto;
-} */
+}
 
 
 /*          header              */
