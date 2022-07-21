@@ -184,3 +184,7 @@ const pass = document.querySelector('.form__sign-in input[name="password"]');
 document.querySelector('.btnSign').addEventListener('click', () => {
     alert(`Your email: ${email.value}\nYour password: ${pass.value}`);
 });
+
+document.querySelector('.form__sign-in').addEventListener('submit', (e) => {
+    e.preventDefault();
+});
