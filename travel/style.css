@@ -40,13 +40,15 @@ body {
     visibility: hidden;
     transition:  0.2s;
     opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .pop-up__content {
-    max-width: 660px;
+    width: 650px;
     background: linear-gradient(#fff, #8eb5bc);
-    margin: 0 auto;
-    transform: translateY(-70%);
+    transform: translateY(-100px);
     transition: 0.3s;
     display: flex;
     flex-direction: column;
@@ -54,8 +56,6 @@ body {
     gap: 1.25rem;
     box-sizing: border-box;
     border-radius: 1rem;
-    /* overflow:auto;
-    height: 600px; */
 }
 
 .form__sign-in {
@@ -65,7 +65,7 @@ body {
 }
 
 .pop-up__active {
-    transform: translateY(120px);
+    transform: translateY(0);
 }
 
 .hidden {

@@ -4,8 +4,9 @@
     transform: translateY(20px);
 }
 .pop-up__content {
-    max-height: 640px;
+    /* max-height: 620px; */
     overflow: auto;
+    transform: scale(0.8);
 }
 
 
