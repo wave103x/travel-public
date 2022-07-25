@@ -2,255 +2,246 @@
 <html lang="zxx">
 
 <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
-    <link rel='stylesheet' media='screen and (max-width: 390px)' href='responsive.css' />
-    <link rel="icon" type="image/x-icon" href="./assets/icon/favicon.ico">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Travel</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <link rel='stylesheet' media='screen and (max-width: 390px)' href='responsive.css' />
+  <link rel="icon" type="image/x-icon" href="./assets/icon/favicon.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel</title>
 </head>
 
 <body>
-    <div class="pop-up ">
-        <div class="pop-up__content">
-            <h4 class="header-login">Log in to your account</h4>
-            <button class="btnPop btnFace"><img src="./assets/icon/FacebookLogo.svg" alt="button icon">Sign In with Facebook</button>
-            <button class="btnPop btnGoogle"><img src="./assets/icon/GoogleLogo.svg" alt="button icon">Sign In with Google</button>
-            <div class="hr">
-                or
-            </div>
-            <form class="form__sign-in">
-                <label>E-mail<br><input class="btnPop inputPop" type="email" name="e-mail"></label>
-                <label>Password<br><input class="btnPop inputPop" type="password" name="password"></label>
-                <input class="btnPop btnSign" type="submit" value="Sign In">
-            </form>
-            <a href="#" class="linkForgot">Forgot Your Password?</a>
-            <div>
-                <hr>
-            </div>
-            <div style="text-align: center;">
-                <p class="textToRegister">Don’t have an account? </p><a class="linkRegister" href="#">Register</a>
-            </div>
-        </div>
+  <div class="pop-up ">
+    <div class="pop-up__content">
+      <h4 class="header-login">Log in to your account</h4>
+      <button class="btnPop btnFace"><img src="./assets/icon/FacebookLogo.svg" alt="button icon">Sign In with
+        Facebook</button>
+      <button class="btnPop btnGoogle"><img src="./assets/icon/GoogleLogo.svg" alt="button icon">Sign In with
+        Google</button>
+      <div class="hr">
+        or
+      </div>
+      <form class="form__sign-in">
+        <label>E-mail<br><input class="btnPop inputPop" type="email" name="e-mail"></label>
+        <label>Password<br><input class="btnPop inputPop" type="password" name="password"></label>
+        <input class="btnPop btnSign" type="submit" value="Sign In">
+      </form>
+      <a href="#" class="linkForgot">Forgot Your Password?</a>
+      <div>
+        <hr>
+      </div>
+      <div style="text-align: center;">
+        <p class="textToRegister">Don’t have an account? </p><a class="linkRegister" href="#">Register</a>
+      </div>
     </div>
-    <div id="menu" class="adapt-menu">
-        <img class="close-icon" src="./assets/icon/close.svg" alt="close icon" width="30" id="close-icon">
-        <div class="ad-links">
+  </div>
+  <div id="menu" class="adapt-menu">
+    <img class="close-icon" src="./assets/icon/close.svg" alt="close icon" width="30" id="close-icon">
+    <div class="ad-links">
+      <div class="adapt-menu__link"><a href="#steps">How it works</a></div>
+      <div class="adapt-menu__link"><a href="#plan">Plan Your Trip</a></div>
+      <div class="adapt-menu__link"><a href="#destinations">Destinations</a></div>
+      <div class="adapt-menu__link"><a href="#stories">Travel Stories</a></div>
+      <div class="adapt-menu__link"><a href="#" onclick="accountLink();return false;">Account</a></div>
+      <div class="adapt-menu__link"><a href="#social">Social Media</a></div>
 
-            <div class="adapt-menu__link"><a href="#steps">How it works</a></div>
-            <div class="adapt-menu__link"><a href="#plan">Plan Your Trip</a></div>
-            <div class="adapt-menu__link"><a href="#destinations">Destinations</a></div>
-            <div class="adapt-menu__link"><a href="#stories">Travel Stories</a></div>
-            <div class="adapt-menu__link"><a href="#" onclick="accountLink();return false;">Account</a></div>
-            <div class="adapt-menu__link"><a href="#social">Social Media</a></div>
-
-        </div>
     </div>
-    <div class="preview">
-        <header class="header__top white-color">
-            <div class="wrapper">
-                <div class="header__flex">
-                    <a href="#" class="header__self-link">
-                        <div class="header__logo">Travel Portal</div>
-                    </a>
-                    <nav>
-                        <ul class="white-color header__nav">
-                            <li><a href="#steps">How It Works</a></li>
-                            <li><a href="#plan">Plan Your Trip</a></li>
-                            <li><a href="#destinations">Destinations</a></li>
-                            <li><a href="#stories">Travel Stories</a></li>
-                        </ul>
-                    </nav>
-                    <button class="button__gray button__gray--login white-color">Login</button>
-                </div>
-            </div>
-        </header>
-        <section class="wrapper">
-            <h1 class="white-color" id="hide">Explore the beauty of <br>the World</h1>
-            <div class="sub-heading white-color">Receive personalized recommendations for countries, hotels, activities
-                and more</div>
+  </div>
+  <div class="preview">
+    <header class="header__top white-color">
+      <div class="wrapper">
+        <div class="header__flex">
+          <a href="#" class="header__self-link">
+            <div class="header__logo">Travel Portal</div>
+          </a>
+          <nav>
+            <ul class="white-color header__nav">
+              <li><a href="#steps">How It Works</a></li>
+              <li><a href="#plan">Plan Your Trip</a></li>
+              <li><a href="#destinations">Destinations</a></li>
+              <li><a href="#stories">Travel Stories</a></li>
+            </ul>
+          </nav>
+          <button class="button__gray button__gray--login white-color">Login</button>
+        </div>
+      </div>
+    </header>
+    <section class="wrapper">
+      <h1 class="white-color" id="hide">Explore the beauty of <br>the World</h1>
+      <div class="sub-heading white-color">Receive personalized recommendations for countries, hotels, activities
+        and more</div>
 
-            <div class="mobile-logos">
-                <img src="./assets/icon/header-logo.svg" alt="site-logo">
-                <img src="./assets/icon/eva_menu-outline.svg" alt="hamburger" id="hamburger">
-            </div>
-            <div class="cta-top" id="plan">
-                <p>What would you like to do?</p>
-                <button class="button__gray button__gray--top white-color" type="submit">Start Planning</button>
-            </div>
-        </section>
+      <div class="mobile-logos">
+        <img src="./assets/icon/header-logo.svg" alt="site-logo">
+        <img src="./assets/icon/eva_menu-outline.svg" alt="hamburger" id="hamburger">
+      </div>
+      <div class="cta-top" id="plan">
+        <p>What would you like to do?</p>
+        <button class="button__gray button__gray--top white-color" type="submit">Start Planning</button>
+      </div>
+    </section>
+  </div>
+
+  <section class="steps">
+    <div class="wrapper">
+      <h2 id="steps">3 STEPS TO THE PERFECT TRIP</h2>
+      <div class="steps__three">
+        <div class="steps__one-step">
+          <img src="./assets/icon/Vector1.svg" alt="icon1">
+          <p class="steps__text">Tell us what you want to do</p>
+        </div>
+        <div class="steps__one-step">
+          <img src="./assets/icon/Vector2.svg" alt="icon2">
+          <p class="steps__text">Share&nbsp;us&nbsp;preferable&nbsp;dates</p>
+        </div>
+        <div class="steps__one-step">
+          <img src="./assets/icon/Vector3.svg" alt="icon3">
+          <p class="steps__text">We will give you recommendations</p>
+        </div>
+      </div>
     </div>
+  </section>
+  <section class="destinations">
+    <h2 id="destinations">POPULAR DESTINATIONS</h2>
+    <div class="destinations--flex noselect">
+      <svg class="arrowLeft" width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path
+          d="M9.92435 3.0675C9.57284 3.41911 9.37537 3.89594 9.37537 4.39312C9.37537 4.89031 9.57284 5.36713 9.92435 5.71875L19.2056 15L9.92435 24.2812C9.5828 24.6349 9.39381 25.1085 9.39808 25.6001C9.40235 26.0917 9.59955 26.562 9.94719 26.9097C10.2948 27.2573 10.7651 27.4545 11.2567 27.4588C11.7483 27.463 12.222 27.274 12.5756 26.9325L23.1825 16.3256C23.534 15.974 23.7314 15.4972 23.7314 15C23.7314 14.5028 23.534 14.026 23.1825 13.6744L12.5756 3.0675C12.224 2.71599 11.7472 2.51852 11.25 2.51852C10.7528 2.51852 10.276 2.71599 9.92435 3.0675Z"
+          fill="#F2785C" />
+      </svg>
+      <div class="slider">
 
-    <section class="steps">
-        <div class="wrapper">
-            <h2 id="steps">3 STEPS TO THE PERFECT TRIP</h2>
-            <div class="steps__three">
-                <div class="steps__one-step">
-                    <img src="./assets/icon/Vector1.svg" alt="icon1">
-                    <p class="steps__text">Tell us what you want to do</p>
-                </div>
-                <div class="steps__one-step">
-                    <img src="./assets/icon/Vector2.svg" alt="icon2">
-                    <p class="steps__text">Share&nbsp;us&nbsp;preferable&nbsp;dates</p>
-                </div>
-                <div class="steps__one-step">
-                    <img src="./assets/icon/Vector3.svg" alt="icon3">
-                    <p class="steps__text">We will give you recommendations</p>
-                </div>
-            </div>
+        <div class="slider-line slideMiddle">
+          <div class="slider__photo-1"><img draggable="false" class="imageSliderOne" src="assets/img/left.jpg"
+              alt="destination1">
+          </div>
+          <div class="slider__photo-2"><img draggable="false" src="assets/img/middle.jpg" alt="destination2">
+          </div>
+          <div class="slider__photo-3"><img draggable="false" src="assets/img/right.jpg" alt="destination3">
+          </div>
         </div>
-    </section>
-    <section class="destinations">
-        <h2 id="destinations">POPULAR DESTINATIONS</h2>
-        <div class="destinations--flex noselect">
-            <svg class="arrowLeft" width="30" height="30" viewBox="0 0 30 30" fill="none"
-                xmlns="http://www.w3.org/2000/svg">
-                <path
-                    d="M9.92435 3.0675C9.57284 3.41911 9.37537 3.89594 9.37537 4.39312C9.37537 4.89031 9.57284 5.36713 9.92435 5.71875L19.2056 15L9.92435 24.2812C9.5828 24.6349 9.39381 25.1085 9.39808 25.6001C9.40235 26.0917 9.59955 26.562 9.94719 26.9097C10.2948 27.2573 10.7651 27.4545 11.2567 27.4588C11.7483 27.463 12.222 27.274 12.5756 26.9325L23.1825 16.3256C23.534 15.974 23.7314 15.4972 23.7314 15C23.7314 14.5028 23.534 14.026 23.1825 13.6744L12.5756 3.0675C12.224 2.71599 11.7472 2.51852 11.25 2.51852C10.7528 2.51852 10.276 2.71599 9.92435 3.0675Z"
-                    fill="#F2785C" />
-            </svg>
-            <div class="slider">
 
-                <div class="slider-line slideMiddle">
-                    <div class="slider__photo-1"><img draggable="false" class="imageSliderOne" src="assets/img/left.jpg"
-                            alt="destination1">
-                    </div>
-                    <div class="slider__photo-2"><img draggable="false" src="assets/img/middle.jpg" alt="destination2">
-                    </div>
-                    <div class="slider__photo-3"><img draggable="false" src="assets/img/right.jpg" alt="destination3">
-                    </div>
-                </div>
-
-            </div>
-            <svg class="arrowRight" width="30" height="30" viewBox="0 0 30 30" fill="none"
-                xmlns="http://www.w3.org/2000/svg">
-                <path
-                    d="M9.92435 3.0675C9.57284 3.41911 9.37537 3.89594 9.37537 4.39312C9.37537 4.89031 9.57284 5.36713 9.92435 5.71875L19.2056 15L9.92435 24.2812C9.5828 24.6349 9.39381 25.1085 9.39808 25.6001C9.40235 26.0917 9.59955 26.562 9.94719 26.9097C10.2948 27.2573 10.7651 27.4545 11.2567 27.4588C11.7483 27.463 12.222 27.274 12.5756 26.9325L23.1825 16.3256C23.534 15.974 23.7314 15.4972 23.7314 15C23.7314 14.5028 23.534 14.026 23.1825 13.6744L12.5756 3.0675C12.224 2.71599 11.7472 2.51852 11.25 2.51852C10.7528 2.51852 10.276 2.71599 9.92435 3.0675Z"
-                    fill="#F2785C" />
-            </svg>
-            <div class="bullets">
-                <svg class="bullet" width="20" height="20" viewBox="0 0 20 20" fill="none"
-                    xmlns="http://www.w3.org/2000/svg">
-                    <circle cx="10" cy="10" r="10" />
-                </svg>
-                <svg class="bullet" width="20" height="20" viewBox="0 0 20 20" fill="none"
-                    xmlns="http://www.w3.org/2000/svg">
-                    <circle cx="10" cy="10" r="10" />
-                </svg>
-                <svg class="bullet" width="20" height="20" viewBox="0 0 20 20" fill="none"
-                    xmlns="http://www.w3.org/2000/svg">
-                    <circle cx="10" cy="10" r="10" />
-                </svg>
-            </div>
-            <button class="button__gray button__icon-arrow"><img class="img-icon-arrow"
-                    src="assets/icon/bi_arrow-right.svg" alt="icon-arrow">Find More</button>
+      </div>
+      <svg class="arrowRight" width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path
+          d="M9.92435 3.0675C9.57284 3.41911 9.37537 3.89594 9.37537 4.39312C9.37537 4.89031 9.57284 5.36713 9.92435 5.71875L19.2056 15L9.92435 24.2812C9.5828 24.6349 9.39381 25.1085 9.39808 25.6001C9.40235 26.0917 9.59955 26.562 9.94719 26.9097C10.2948 27.2573 10.7651 27.4545 11.2567 27.4588C11.7483 27.463 12.222 27.274 12.5756 26.9325L23.1825 16.3256C23.534 15.974 23.7314 15.4972 23.7314 15C23.7314 14.5028 23.534 14.026 23.1825 13.6744L12.5756 3.0675C12.224 2.71599 11.7472 2.51852 11.25 2.51852C10.7528 2.51852 10.276 2.71599 9.92435 3.0675Z"
+          fill="#F2785C" />
+      </svg>
+      <div class="bullets">
+        <svg class="bullet" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="10" cy="10" r="10" />
+        </svg>
+        <svg class="bullet" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="10" cy="10" r="10" />
+        </svg>
+        <svg class="bullet" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="10" cy="10" r="10" />
+        </svg>
+      </div>
+      <button class="button__gray button__icon-arrow"><img class="img-icon-arrow" src="assets/icon/bi_arrow-right.svg"
+          alt="icon-arrow">Find More</button>
+    </div>
+  </section>
+  <section class="stories">
+    <h2 id="stories">TRAVEL STORIES</h2>
+    <div class="stories__bg">
+      <div class="stories__content">
+        <div class="stories__node">
+          <img class="stories__img" src="./assets/img/Rectangle15.jpg" alt="story1">
+          <div class="stories__full-text">
+            <h3>10 Photos of Attractive Thailand</h3>
+            <p class="stories__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+              tempor
+              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+              exercitation
+              ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in
+              voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+              cupidatat non
+              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor
+              sit amet,
+              consectetur adipiscing elit...
+            </p>
+            <a class="stories__read-more" href="#"><b>Read more</b></a>
+          </div>
         </div>
-    </section>
-    <section class="stories">
-        <h2 id="stories">TRAVEL STORIES</h2>
-        <div class="stories__bg">
-            <div class="stories__content">
-                <div class="stories__node">
-                    <img class="stories__img" src="./assets/img/Rectangle15.jpg" alt="story1">
-                    <div class="stories__full-text">
-                        <h3>10 Photos of Attractive Thailand</h3>
-                        <p class="stories__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                            tempor
-                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                            exercitation
-                            ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                            reprehenderit in
-                            voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                            cupidatat non
-                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor
-                            sit amet,
-                            consectetur adipiscing elit...
-                        </p>
-                        <a class="stories__read-more" href="#"><b>Read more</b></a>
-                    </div>
-                </div>
-                <div class="stories__node">
-                    <img class="stories__img" src="./assets/img/Rectangle16.jpg" alt="story2">
-                    <div class="stories__full-text">
-                        <h3>Canyonlands National Park, Utah</h3>
-                        <p class="stories__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                            tempor
-                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                            exercitation
-                            ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                            reprehenderit in
-                            voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                            cupidatat non
-                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor
-                            sit amet,
-                            consectetur adipiscing elit...
-                        </p>
-                        <a class="stories__read-more" href="#"><b>Read more</b></a>
-                    </div>
-                </div>
-                <div class="stories__node">
-                    <img class="stories__img" src="./assets/img/Rectangle17.jpg" alt="story3">
-                    <div class="stories__full-text">
-                        <h3>I left my heart in the Mountains!</h3>
-                        <p class="stories__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                            tempor
-                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                            exercitation
-                            ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                            reprehenderit in
-                            voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                            cupidatat non
-                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor
-                            sit amet,
-                            consectetur adipiscing elit...
-                        </p>
-                        <a class="stories__read-more" href="#"><b>Read more</b></a>
-                    </div>
-                </div>
-                <div class="stories__node">
-                    <img class="stories__img" src="./assets/img/Rectangle18.jpg" alt="story4">
-                    <div class="stories__full-text">
-                        <h3>The Longest journey in my life!</h3>
-                        <p class="stories__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                            tempor
-                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                            exercitation
-                            ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                            reprehenderit in
-                            voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                            cupidatat non
-                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor
-                            sit amet,
-                            consectetur adipiscing elit...
-                        </p>
-                        <a class="stories__read-more" href="#"><b>Read more</b></a>
-                    </div>
-                </div>
-                <button class="button__gray button__icon-arrow"><img class="img-icon-arrow"
-                        src="assets/icon/bi_arrow-right.svg" alt="icon-arrow">See More</button>
-            </div>
-            <footer id="social">
-                <ul class="footer__social-icons grid-social-left">
-                    <li><a href="https://github.com/wave103x"><img src="./assets/icon/github.svg" width="34"
-                                alt="icon-git"></a></li>
-                    <li><a href="https://rs.school/js-stage0/"><img src="./assets/icon/rs_school_js.svg" height="34"
-                                alt="icon-rsschool"></a></li>
-                </ul>
-                <p class="footer__copyright white-color">All Rights Reserved © Travel Portal</p>
-                <ul class="footer__social-icons grid-social-right">
-                    <li><a href="#"><img src="./assets/icon/akar-icons_instagram-fill.svg" alt="icon-insta"></a></li>
-                    <li><a href="#"><img src="./assets/icon/akar-icons_video.svg" alt="icon-video"></a></li>
-                    <li><a href="#"><img src="./assets/icon/akar-icons_twitter-fill.svg" alt="icon-twitter"></a></li>
-                </ul>
-            </footer>
+        <div class="stories__node">
+          <img class="stories__img" src="./assets/img/Rectangle16.jpg" alt="story2">
+          <div class="stories__full-text">
+            <h3>Canyonlands National Park, Utah</h3>
+            <p class="stories__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+              tempor
+              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+              exercitation
+              ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in
+              voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+              cupidatat non
+              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor
+              sit amet,
+              consectetur adipiscing elit...
+            </p>
+            <a class="stories__read-more" href="#"><b>Read more</b></a>
+          </div>
         </div>
-    </section>
-
-    <script src="index.js"></script>
-
-</main>
-<script src="./index.js"></script>
-
+        <div class="stories__node">
+          <img class="stories__img" src="./assets/img/Rectangle17.jpg" alt="story3">
+          <div class="stories__full-text">
+            <h3>I left my heart in the Mountains!</h3>
+            <p class="stories__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+              tempor
+              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+              exercitation
+              ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in
+              voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+              cupidatat non
+              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor
+              sit amet,
+              consectetur adipiscing elit...
+            </p>
+            <a class="stories__read-more" href="#"><b>Read more</b></a>
+          </div>
+        </div>
+        <div class="stories__node">
+          <img class="stories__img" src="./assets/img/Rectangle18.jpg" alt="story4">
+          <div class="stories__full-text">
+            <h3>The Longest journey in my life!</h3>
+            <p class="stories__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+              tempor
+              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+              exercitation
+              ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in
+              voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+              cupidatat non
+              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor
+              sit amet,
+              consectetur adipiscing elit...
+            </p>
+            <a class="stories__read-more" href="#"><b>Read more</b></a>
+          </div>
+        </div>
+        <button class="button__gray button__icon-arrow"><img class="img-icon-arrow" src="assets/icon/bi_arrow-right.svg"
+            alt="icon-arrow">See More</button>
+      </div>
+      <footer id="social">
+        <ul class="footer__social-icons grid-social-left">
+          <li><a href="https://github.com/wave103x"><img src="./assets/icon/github.svg" width="34" alt="icon-git"></a>
+          </li>
+          <li><a href="https://rs.school/js-stage0/"><img src="./assets/icon/rs_school_js.svg" height="34"
+                alt="icon-rsschool"></a></li>
+        </ul>
+        <p class="footer__copyright white-color">All Rights Reserved © Travel Portal</p>
+        <ul class="footer__social-icons grid-social-right">
+          <li><a href="#"><img src="./assets/icon/akar-icons_instagram-fill.svg" alt="icon-insta"></a></li>
+          <li><a href="#"><img src="./assets/icon/akar-icons_video.svg" alt="icon-video"></a></li>
+          <li><a href="#"><img src="./assets/icon/akar-icons_twitter-fill.svg" alt="icon-twitter"></a></li>
+        </ul>
+      </footer>
+    </div>
+  </section>
+  <script src="index.js"></script>
 </body>
 
 </html>
