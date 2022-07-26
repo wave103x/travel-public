@@ -182,7 +182,11 @@ const email = document.querySelector('.form__sign-in input[name="e-mail"]');
 const pass = document.querySelector('.form__sign-in input[name="password"]');
 
 document.querySelector('.btnSign').addEventListener('click', () => {
-  alert(`Your email: ${email.value}\nYour password: ${pass.value}`);
+  if (email.value === '' || pass.value === '') {
+    alert(`Type email and password`);
+  } else {
+    alert(`Your email: ${email.value}\nYour password: ${pass.value}`);
+  }
 });
 
 document.querySelector('.form__sign-in').addEventListener('submit', (e) => {
