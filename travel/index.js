@@ -1,22 +1,22 @@
 const close = document.querySelector('#close-icon');
-const links = document.querySelector('.ad-links');
+const links = document.querySelector('.menu-links');
 
 close.addEventListener('click', (ev) => {
-  menu.classList.remove('adActive');
+  menu.classList.remove('menu-active');
 });
 
 links.addEventListener('click', (ev) => {
-  menu.classList.remove('adActive');
+  menu.classList.remove('menu-active');
 });
 
 hamburger.addEventListener("click", function (ev) {
-  menu.classList.add('adActive');
+  menu.classList.add('menu-active');
   ev.stopPropagation();
 }, false);
 
 window.addEventListener('click', (ev) => {
   if (ev.target !== menu) {
-    menu.classList.remove('adActive');
+    menu.classList.remove('menu-active');
     ev.stopPropagation();
   }
 })

@@ -9,7 +9,6 @@
     transform: scale(0.8) translateY(0);
 }
 
-
 /*          header              */
 
 .header__top, .sub-heading, #hide {
@@ -88,7 +87,7 @@ h2:first-child {
     z-index: 12;
 }
 
-.adapt-menu.adActive {
+.adapt-menu.menu-active {
     transform: translate(0);
     display: flex;
 }
@@ -98,12 +97,12 @@ h2:first-child {
     align-self: flex-start;
 }
 
-.ad-links a{
+.menu-links a{
     color: white;
     text-decoration: none;
 }
 
-.ad-links {
+.menu-links {
     display: flex;
     flex-direction: column;
     gap: 10px;
