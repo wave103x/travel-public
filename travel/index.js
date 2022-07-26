@@ -1,22 +1,22 @@
 const close = document.querySelector('#close-icon');
-const links = document.querySelector('.ad-links');
+const links = document.querySelector('.menu-links');
 
 close.addEventListener('click', (ev) => {
-  menu.classList.remove('adActive');
+  menu.classList.remove('menu-active');
 });
 
 links.addEventListener('click', (ev) => {
-  menu.classList.remove('adActive');
+  menu.classList.remove('menu-active');
 });
 
 hamburger.addEventListener("click", function (ev) {
-  menu.classList.add('adActive');
+  menu.classList.add('menu-active');
   ev.stopPropagation();
 }, false);
 
 window.addEventListener('click', (ev) => {
   if (ev.target !== menu) {
-    menu.classList.remove('adActive');
+    menu.classList.remove('menu-active');
     ev.stopPropagation();
   }
 })
@@ -182,7 +182,11 @@ const email = document.querySelector('.form__sign-in input[name="e-mail"]');
 const pass = document.querySelector('.form__sign-in input[name="password"]');
 
 document.querySelector('.btnSign').addEventListener('click', () => {
-  alert(`Your email: ${email.value}\nYour password: ${pass.value}`);
+  if (email.value === '' || pass.value === '') {
+    alert(`Type email and password`);
+  } else {
+    alert(`Your email: ${email.value}\nYour password: ${pass.value}`);
+  }
 });
 
 document.querySelector('.form__sign-in').addEventListener('submit', (e) => {

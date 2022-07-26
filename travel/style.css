@@ -161,7 +161,6 @@ h4 {
 .linkRegister,
 .linkForgot,
 .linkLogin {
-    text-decoration: none;
     text-align: center;
     color: #0D606F;
 }
