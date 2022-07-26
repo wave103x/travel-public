@@ -1,12 +1,12 @@
 /*      popup       */
 
-.pop-up__active {
-    transform: translateY(20px);
-}
 .pop-up__content {
-    /* max-height: 620px; */
     overflow: auto;
-    transform: scale(0.8);
+    transform: scale(0.8) translateY(-60px);
+}
+
+.pop-up__active {
+    transform: scale(0.8) translateY(0);
 }
 
 
